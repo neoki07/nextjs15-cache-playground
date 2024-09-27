@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { StaticRendering } from "./static-rendering";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
             {new Date().toISOString()}
           </code>
         </p>
+        <StaticRendering />
       </main>
     </div>
   );

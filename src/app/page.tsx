@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { StaticRendering } from "./static-rendering";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -22,7 +22,16 @@ export default function Home() {
             {new Date().toISOString()}
           </code>
         </p>
-        <StaticRendering />
+        <div className="flex flex-col gap-4 w-full">
+          <div className="w-full border rounded-md p-4 flex flex-col items-start gap-2">
+            <Link
+              href="/static-rendering"
+              className="text-xl font-semibold text-center hover:opacity-75"
+            >
+              Static Rendering
+            </Link>
+          </div>
+        </div>
       </main>
     </div>
   );

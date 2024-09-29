@@ -23,22 +23,22 @@ export default function Home() {
           </code>
         </p>
         <div className="flex flex-col gap-4 w-full">
-          <div className="w-full border rounded-md p-4 flex flex-col items-start gap-2">
-            <Link
-              href="/static-rendering"
-              className="text-xl font-semibold text-center hover:opacity-75"
-            >
+          <Link
+            href="/static-rendering"
+            className="text-xl font-semibold text-center hover:opacity-75"
+          >
+            <span className="w-full border rounded-md p-4 flex flex-col items-start gap-2">
               Static Rendering
-            </Link>
-          </div>
-          <div className="w-full border rounded-md p-4 flex flex-col items-start gap-2">
-            <Link
-              href="/static-rendering-revalidate-5s"
-              className="text-xl font-semibold text-center hover:opacity-75"
-            >
+            </span>
+          </Link>
+          <Link
+            href="/static-rendering-revalidate-5s"
+            className="text-xl font-semibold text-center hover:opacity-75"
+          >
+            <span className="w-full border rounded-md p-4 flex flex-col items-start gap-2">
               Static Rendering (Revalidate: 5 seconds)
-            </Link>
-          </div>
+            </span>
+          </Link>
         </div>
       </main>
     </div>

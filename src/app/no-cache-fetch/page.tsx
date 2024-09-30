@@ -13,7 +13,7 @@ export default async function Page() {
         </h1>
         <p className="font-[family-name:var(--font-geist-mono)]">
           Fetched at:{" "}
-          <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
+          <code className="bg-black/[.05] px-1 py-0.5 rounded font-semibold">
             {now}
           </code>
         </p>

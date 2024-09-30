@@ -7,7 +7,6 @@ export default function Home() {
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <h1 className="flex items-start justify-center gap-2">
           <Image
-            className="dark:invert"
             src="/next.svg"
             alt="Next.js"
             width={140}
@@ -18,7 +17,7 @@ export default function Home() {
         </h1>
         <p className="font-[family-name:var(--font-geist-mono)]">
           Build time:{" "}
-          <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
+          <code className="bg-black/[.05] px-1 py-0.5 rounded font-semibold">
             {new Date().toISOString()}
           </code>
         </p>

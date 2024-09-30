@@ -78,6 +78,14 @@ export default function Home() {
               Force Dynamic
             </span>
           </Link>
+          <Link
+            href="/revalidate-functions"
+            className="text-xl font-semibold text-center hover:opacity-75"
+          >
+            <span className="w-full border rounded-md p-4 flex flex-col items-start gap-2">
+              Revalidate Functions
+            </span>
+          </Link>
         </div>
       </main>
     </div>

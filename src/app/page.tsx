@@ -70,6 +70,14 @@ export default function Home() {
               Dynamic Function
             </span>
           </Link>
+          <Link
+            href="/force-dynamic"
+            className="text-xl font-semibold text-center hover:opacity-75"
+          >
+            <span className="w-full border rounded-md p-4 flex flex-col items-start gap-2">
+              Force Dynamic
+            </span>
+          </Link>
         </div>
       </main>
     </div>

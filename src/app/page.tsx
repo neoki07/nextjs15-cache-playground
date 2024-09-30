@@ -39,6 +39,14 @@ export default function Home() {
             </span>
           </Link>
           <Link
+            href="/no-store-fetch"
+            className="text-xl font-semibold text-center hover:opacity-75"
+          >
+            <span className="w-full border rounded-md p-4 flex flex-col items-start gap-2">
+              Fetching Data (No Store)
+            </span>
+          </Link>
+          <Link
             href="/no-cache-fetch"
             className="text-xl font-semibold text-center hover:opacity-75"
           >

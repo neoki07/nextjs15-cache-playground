@@ -1,5 +1,5 @@
 export default async function Page() {
-  const now: string = await fetch("http://localhost:3000/api/now", {
+  const now: string = await fetch("http://localhost:8000/now", {
     cache: "no-cache",
   })
     .then((res) => res.json())

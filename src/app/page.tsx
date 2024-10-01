@@ -86,6 +86,14 @@ export default function Home() {
               Revalidate Functions
             </span>
           </Link>
+          <Link
+            href="/ppr"
+            className="text-xl font-semibold text-center hover:opacity-75"
+          >
+            <span className="w-full border rounded-md p-4 flex flex-col items-start gap-2">
+              PPR
+            </span>
+          </Link>
         </div>
       </main>
     </div>
